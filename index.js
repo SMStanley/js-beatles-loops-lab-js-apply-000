@@ -3,8 +3,8 @@ function theBeatlesPlay (musicians, instruments) {
   for (e=0; e<musicians.length; e++) {
     string [e] = "";
   }
-  for (i=0; i<musicians.length; i++){
-    string[i] +=musicians[i] + 'plays' + instruments[i];
+  for (i=0; i<instruments.length; i++){
+    string[i] +=musicians[e] + 'plays' + instruments[i];
   }
   return string;
 }
